@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.11.1"]
                  [clj-http "3.12.3"]
                  [cheshire "5.10.0"]
-                 [ring "1.9.5"]]
+                 [ring "1.9.5"]
+                 [ring-cors "0.1.13"]]
   :main ^:skip-aot rest-api.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all
